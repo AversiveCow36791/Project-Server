@@ -1,0 +1,23 @@
+export default [
+    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101","description":"This is a description of the course", "points": 200, "dueDate": "2022-12-21", "availableFromDate": "2022-12-21", "availableUntilDate": "2023-01-31"},
+    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101","description":"This is a description of the course", "points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101","description":"This is a description of the course","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A234", "title": "Love for Sports", "course": "SM5400","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A245", "title": "Basketball is Life", "course": "SM5400","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A256", "title": "Drilling Analysis", "course": "SM5400","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A301", "title": "Piano Lesson", "course": "MS1452","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A302", "title": "Writing Music", "course": "MS1452" ,"points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A303", "title": "Listening Analysis", "course": "MS1452" ,"points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A402", "title": "Learn to Sell", "course": "MA2330","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A403", "title": "Advertising", "course": "MA2330", "points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A401", "title": "Make Profit", "course": "MA2330","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A502", "title": "Drawing", "course": "AT4500" ,"points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A503", "title": "Digital Art", "course": "AT4500", "points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A501", "title": "Masterpiece", "course": "AT4500","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A603", "title": "Junk Food", "course": "FS1670","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31"},
+    { "_id": "A601", "title": "Eating Healthy", "course": "FS1670","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A602", "title": "Making your own diet", "course": "FS1670","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A703", "title": "Volcanoes", "course": "ES2300","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A702", "title": "Mountains", "course": "ES2300","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" },
+    { "_id": "A704", "title": "Rocks", "course": "ES2300","points": 100, "dueDate": "2022-12-31", "availableFromDate": "2022-12-31", "availableUntilDate": "2022-12-31" }
+  ];
