@@ -7,8 +7,8 @@ import ModuleRoutes from './Kanbas/modules/routes.js';
 import AssignmentRoutes from './Kanbas/assignments/routes.js';
 
 const app = express();
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 Hello(app);
 AssignmentRoutes(app);
 ModuleRoutes(app);
