@@ -9,7 +9,6 @@ import CourseRoutes from './Kanbas/courses/routes.js';
 import ModuleRoutes from './Kanbas/modules/routes.js';
 import AssignmentRoutes from './Kanbas/assignments/routes.js';
 import session from 'express-session';
-axios.defaults.withCredentials = true;
 
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://localhost:27017/kanbas';
 const DB_NAME = process.env.DB_NAME;
@@ -31,7 +30,7 @@ if (process.env.NODE_ENV !== "development") {
     sessionOptions.cookie = {
         sameSite: "none",
         secure: true,
-        domain: process.env.HTTP_SERVER_DOMAIN,
+        domain: "https://kanbas-node-server-app-y7tx.onrender.com",
     };
     }
 app.use(session(sessionOptions));
