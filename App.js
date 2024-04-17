@@ -8,6 +8,7 @@ import cors from 'cors';
 import CourseRoutes from './Kanbas/courses/routes.js';
 import ModuleRoutes from './Kanbas/modules/routes.js';
 import AssignmentRoutes from './Kanbas/assignments/routes.js';
+import QuizRoutes from './Kanbas/quizzes/routes.js';
 import session from 'express-session';
 
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://localhost:27017/kanbas';
@@ -37,6 +38,7 @@ app.use(session(sessionOptions));
 app.use(express.json());
 UserRoutes(app);
 Hello(app);
+QuizRoutes(app);
 AssignmentRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);
