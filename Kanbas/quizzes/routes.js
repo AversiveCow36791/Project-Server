@@ -1,4 +1,4 @@
-import * as dao from './dao';
+import * as dao from './dao.js';
 
 function QuizRoutes(app) {
     const createQuiz = async (req, res) => {
