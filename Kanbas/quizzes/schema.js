@@ -17,7 +17,9 @@ const quizSchema = new mongoose.Schema({
     webCamRequired: {type: String, enum:["No","Yes"], default: "No"},
     LockQuestionsAfterAnswering: {type: String, enum:["No","Yes"], default: "No"},
     availableDate: String,
-    untilDate: String
+    untilDate: String,
+    requireRespondusLockDownBrowser: {type: String, enum:["No","Yes"], default: "No"},
+    assignmentGroup: {type: String, default: 'None'},
 },
 {collection: 'quizzes'});
 
