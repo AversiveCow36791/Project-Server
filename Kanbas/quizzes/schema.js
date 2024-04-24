@@ -4,7 +4,7 @@ const quizSchema = new mongoose.Schema({
     Points: Number,
     dueDate: String,
     numOfQuestions: Number,
-    questions: [{id:String, question: String, options: [String], correctAnswer: String}],
+    questions: [{id:String, question: String, options: [String], correctAnswer: String, type: {type: String, enum: ["Multiple Choice","True/False","Fill in the Blank"],required: true}}],
     course: String,
     published: {type: Boolean, default: false},
     title: String,
